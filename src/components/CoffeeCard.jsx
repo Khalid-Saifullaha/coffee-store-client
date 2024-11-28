@@ -64,7 +64,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
               </Link>
               <button
                 onClick={() => handleDelete(_id)}
-                className="btn join-item"
+                className="btn join-item bg-orange-300"
               >
                 X
               </button>
